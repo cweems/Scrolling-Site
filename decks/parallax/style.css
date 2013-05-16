@@ -22,7 +22,7 @@ p{
 }
 
 p, ul{
-	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family:"Quicksand" sans-serif;
 	font-size-adjust:0.488;
 	font-weight:200;
 	font-style:normal;
@@ -232,6 +232,10 @@ h2{
 Media Types
 ************************/
 
+/***********************
+Data Points
+************************/
+
 
 .figure h1{
 	padding: 20px;
@@ -261,4 +265,58 @@ Media Types
 	box-shadow: 0px 0px 7px #6f6f6f;
 	border-radius: 2px;
 	line-height: 30px;
+}
+
+/***********************
+Images/Highlights
+************************/
+
+
+.highlight{
+	font-family:"Quicksand" sans-serif;
+	box-shadow: 0px 0px 7px #6f6f6f;
+}
+
+.highlight:hover{
+	box-shadow: 0px 0px 20px #6f6f6f;
+}
+
+.highlight-image{
+	width:100%;
+}
+
+.cover{
+	background-color: 
+	rgba(255, 255, 255, .7);
+	box-shadow: inset 0 -1px 3px #ccc;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: auto;
+	display: inline-block;
+}
+
+.cover .inner-wrapper{
+	padding: 10px;
+}
+
+.all-caps{
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #1e1e1e;
+}
+
+.big-title{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+	font-weight: 600;
+	vertical-align: baseline;
+	color: #1e1e1e;
+}
+
+.small-title{
+	color: #468efa;
 }
