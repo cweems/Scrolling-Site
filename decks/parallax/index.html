@@ -3,10 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>ScrollDeck.js Demo for QED</title>
+
+<!--css-->
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="grid.css" rel="stylesheet" type="text/css" media="screen">
+
 <!--Google Fonts API-->
 <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
+<!--JS-->
 <script src="../../js/jquery-1.8.2.min.js"></script>
 <script src="../../js/jquery.scrollTo-1.4.3.1.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.parallax-1.1.js"></script>
@@ -59,6 +64,7 @@ $(document).ready(function(){
 			<br>
 			<li><a href="#sixth" title="Next Section">Images</a></li>
 			<br>
+			<li><a href="#seventh" title="Next Section">Grid</a></li>
 			</ul>
 	</div>
 	</div>
@@ -164,7 +170,7 @@ $(document).ready(function(){
 				</div>
 			</div> <!--.figure-->
 	    </div> <!--.story-->
-	</div>
+	</div> <!--#fifth-->
 	
 	<div id="sixth" class="slide">
 		<div class="story">
@@ -182,8 +188,24 @@ $(document).ready(function(){
 		       </div>
 		       </a>
 	       </div>
-	       
 	    </div> <!--.story-->
 	</div> <!--#sixth-->
+	
+	<div id="seventh" class="slide">
+		<div class="story">
+	       	<div id="test" class="grid_1">1</div> <div id="test" class="grid_11 omega">11</div>
+			<div id="test" class="grid_2">2</div> <div id="test" class="grid_10 omega">10</div>
+			<div id="test" class="grid_3">3</div> <div id="test" class="grid_9 omega">9</div>
+			<div id="test" class="grid_4">4</div> <div id="test" class="grid_8 omega">8</div>
+			<div id="test" class="grid_5">5</div> <div id="test" class="grid_7 omega">7</div>
+			<div id="test" class="grid_6">6</div> <div id="test" class="grid_6 omega">6</div>
+			<div id="test" class="grid_7">7</div> <div id="test" class="grid_5 omega">5</div>
+			<div id="test" class="grid_8">8</div> <div id="test" class="grid_4 omega">4</div>
+			<div id="test" class="grid_9">9</div> <div id="test" class="grid_3 omega">3</div>
+			<div id="test" class="grid_10">10</div> <div id="test" class="grid_2 omega">2</div>
+			<div id="test" class="grid_11">11</div> <div id="test" class="grid_1 omega">1</div>
+			<div id="test" class="grid_12">12</div>
+	    </div> <!--.story-->
+	</div> <!--#seventh-->
 </body>
 </html>
