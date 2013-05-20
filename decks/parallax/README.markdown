@@ -1,7 +1,9 @@
-jQuery Parallax
-===============
+This is a simple scrolling website that includes various js packages.
 
-jQuery Parallax is a script that simulates the parallax effect as seen on [nikebetterworld.com](http://www.nikebetterworld.com/).
+
+
+Includes:
+===============
 
 Plugin: jQuery Parallax  
 Version: 1.1.1  
